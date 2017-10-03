@@ -1,0 +1,26 @@
+{
+  "name": "paprika-ical",
+  "version": "1.0.0",
+  "description": "Creates an iCal from a Paprika menu feed",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "generate": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/richardpeng/paprika-ical.git"
+  },
+  "author": "Richard Peng",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/richardpeng/paprika-ical/issues"
+  },
+  "homepage": "https://github.com/richardpeng/paprika-ical#readme",
+  "dependencies": {
+    "axios": "^0.16.2",
+    "ical-generator": "^0.2.10",
+    "moment": "^2.18.1",
+    "system-timezone": "^0.0.3"
+  }
+}
