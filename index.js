@@ -32,7 +32,8 @@ axios.get('https://www.paprikaapp.com/api/v1/sync/meals/')
       timezone: timezone(),
       events: events
     })
-    fs.writeFile('paprika.ical', cal.toString(), function (e) {
+    console.log('Updating calendar', moment().format())
+    fs.writeFile('paprika.ics', cal.toString(), function (e) {
       if (e) throw e
     })
   })
